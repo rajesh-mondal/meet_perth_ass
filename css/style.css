@@ -1,0 +1,347 @@
+body {
+    font-weight: 300;
+    font-size: 1.1em;
+    font-family: 'lato', sans-serif;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: blackjack;
+    src: url(../fonts/BLACKJAR.TTF);
+}
+
+
+.mainmenu {
+    z-index: 999999;
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+
+.right{
+    float: right;
+}
+
+.full_header_bg {
+    background: url('../img/header_bg.png');
+    position: relative;
+    min-height: 600px;
+}
+.header top{
+    
+}
+
+.header_logo {
+    height: 95px;
+    width: 95px;
+}
+
+.menu_drop {
+    margin-bottom: 50px;
+}
+
+.menu_icon_1 {
+   
+    width: 30px;
+    min-height: 2px;
+    top: 25px;
+    border-radius: 2px;
+    position: absolute;
+}
+
+.menu_icon_2 {
+    position: absolute;
+    width: 30px;
+    min-height: 2px;
+    top: 31px;
+    border-radius: 2px;
+}
+
+.menu_icon_3 {
+    position: absolute;
+    width: 30px;
+    min-height: 2px;
+    top: 37px;
+    border-radius: 2px;
+}
+
+.menu_icon_4 {
+    position: absolute;
+    width: 30px;
+    min-height: 2px;
+    top: 43px;
+    border-radius: 2px;
+}
+
+.header_content {
+    right: 0px;
+    margin-top: 30px;
+}
+
+.header_right_text {
+    text-align: right;
+}
+
+.header_right_text h1 {
+    font-family: blackjack;
+    font-size: 70px;
+    color: white;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.header_right_text p {
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.header_img {
+}
+
+.header_content_img {
+    position: absolute;
+    top: 0px;
+    z-index: 5;
+}
+
+.download {
+
+}
+
+.btn.btn-download {
+    color: white;
+    background: transparent; 
+    border: 2px solid white; 
+    padding: 16px 27px;
+    font-size: 14px;
+}
+
+.fa.fa-cloud-download {
+    padding-left: 15px;
+}
+
+/* Long Head Css */
+
+.Long_Header {
+    background-image: url(../img/long_head_bg.png);
+    position: relative;
+    min-height: 650px;
+    z-index: 10;
+}
+
+.Long_Header_content h1 {
+    color: #545454;
+    font-size: 40px;
+    font-family: 'lato', sans-serif;
+    margin-top: 138px;
+    margin-bottom: 30px;
+}
+
+.Long_Header_content p {
+    color: #545454;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 10px;
+}
+
+.blockquote_style {
+    border-left: 6px solid #4eacdd;
+}
+
+.hello_Button {
+}
+
+.btn.btn-hello {
+    color: #4CC0A8;
+    background: transparent; 
+    border: 2px solid #4CC0A8; 
+    padding: 16px 27px;
+    font-size: 14px;
+}
+
+.fa.fa-envelope {
+    margin-left: 15px;
+}
+
+.pad_img {
+    position: absolute;
+    margin-top: 138px;
+    right: 0px;
+}
+
+.img-responsive {
+}
+/**** Portfolio CSS *****/
+
+.portfolio {
+     background-image: url(../img/portfolio_bg.png);
+    position: relative;
+    min-height: 540px;
+    z-index: 10;
+}
+
+.devices {
+    position: absolute;
+    top: 163px;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+}
+
+.portfolio_text {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 50px;
+    left: -80px;
+}
+
+.portfolio_text p {
+    color: #545454;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 30px;
+}
+
+.portfolio_text h1 {
+    color: #545454;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'lato', sans-serif;
+}
+
+.btn.drib_btn {
+    color: #EA4C89;
+    background: transparent; 
+    border: 2px solid #EA4C89; 
+    padding: 12px 17px;
+    font-size: 14px;
+}
+
+.fa.fa-dribbble{
+    margin-left: 8px;
+}
+/* Donate Section CSS*/
+
+.donate {
+    background-image: url(../img/content_bg.jpg);
+    background-repeat: no-repeat;
+    min-height: 328px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+
+.donate_ques h1 {
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 92px;
+}
+
+.donate_button .btn-donate {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin-top: 40px;
+}
+
+.fa.fa-beer{
+    margin-left: 10px;
+}
+
+/* Contact Section CSS */
+
+.contact {
+    background-image: url(../img/contact_bg.png);
+    min-height: 615px;
+    background-color: #F4F4F4;
+}
+
+.social_share {
+    text-align: center;
+}
+
+.social_share a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #545454;
+    margin-top: 237px;
+    margin-right: 28px;
+    margin-bottom: 50px;
+}
+
+.social_share a i {
+    font-size: 24px;
+    color: #545454;
+    margin-top: 10px;
+}
+
+.email_form label {
+    font-size: 16px;
+    font-style: italic;
+    margin-right: 18px;
+    color: #5D5D5D;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.email_form .input-group .form-control {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: none !important;
+    color: #000;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.email_form .input-group .input-group-addon {
+    border-radius: 10px;
+    background-color: #fff;
+    border: none;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.email_form .input-group .input-group-addon i {
+    color: #6EC5EA;
+}
+
+
+/* Footer Section CSS */
+
+footer {
+         min-height: 80px;
+         background-color: white;
+     }
+     
+.footer-text {
+         margin-top: 20px;
+         font-size: 12px;
+     }
+     
+.uparrow {
+         margin-top: 20px;
+        margin-left: 50px;
+     }
+     
+span.glyphicon.glyphicon-chevron-up {
+         width: 30px;
+         height: 30px;
+         background: #ddd;
+         padding: 9px;
+         opacity: .3;
+         border-radius: 4px;
+     }

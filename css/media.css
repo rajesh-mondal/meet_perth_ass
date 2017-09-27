@@ -1,0 +1,348 @@
+/*Custom Media CSS here*/
+
+/* Extra small devices */
+@media (max-width: 767px) { 
+       .menu_drop {
+    margin-bottom: 50px;
+}
+.full_header_bg {
+    background: url('../img/header_bg.png');
+    position: relative;
+    min-height: 651px;
+}
+
+.menu_icon_1 {
+   
+    width: 30px;
+    min-height: 2px;
+    top: 25px;
+    border-radius: 2px;
+    position: absolute;
+}
+
+.menu_icon_2 {
+    position: absolute;
+    width: 30px;
+    min-height: 2px;
+    top: 31px;
+    border-radius: 2px;
+}
+
+.menu_icon_3 {
+    position: absolute;
+    width: 30px;
+    min-height: 2px;
+    top: 37px;
+    border-radius: 2px;
+}
+
+.menu_icon_4 {
+    position: absolute;
+    width: 30px;
+    min-height: 2px;
+    top: 43px;
+    border-radius: 2px;
+}
+.header_right_text {
+    text-align: center;
+    margin-bottom: 35px;
+       position: relative;
+        z-index: 10;
+    }
+.header_right_text h1 {
+    font-family: blackjack;
+    font-size: 30px;
+    color: white;
+}
+    .header_right_text p {
+    font-size: 15px;
+    color: white;
+}
+    .header_content_img img{
+        width: 100%;
+    }
+    .header_content_img {
+        position: absolute;
+        top: 106px;
+        z-index: 5;
+        left: 0px;
+        right: 0;
+        width: 100%;
+}
+    .btn.btn-download {
+        background-color: transparent;
+        padding: 10px 26px;
+        border: 2px solid white;
+        color: #fff;
+        font-size: 15px;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-left: -30px;
+    }
+    .fa.fa-cloud-download {
+        display: inline-block;
+        padding-left: 13px;
+    }
+    .Long_Header {
+    background-image: url(../img/long_head_bg.png);
+    position: relative;
+    min-height: 600px;
+    z-index: 10;
+}
+
+.Long_Header_content h1 {
+    color: #545454;
+    font-size: 22px;
+    font-family: 'lato', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.Long_Header_content p {
+    color: #545454;
+    font-size: 14px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 1px;
+}
+
+.blockquote_style {
+    border-left: 6px solid #4eacdd;
+}
+
+.hello_Button {
+}
+
+.btn.btn-hello {
+    color: #4CC0A8;
+    background: transparent; 
+    border: 2px solid #4CC0A8; 
+    padding: 10px 18px;
+    font-size: 14px;
+}
+
+.fa.fa-envelope {
+    margin-left: 8px;
+}
+
+.pad_img {
+    position: absolute;
+    margin-top: 10px;
+    right: 0px;
+	z-index: 5;
+}
+
+    .img-responsive {}
+    footer .uparrow {
+        text-align: center;
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+    .footer-text p {
+        font-size: 11px;
+    }
+    .contact {
+    background-image: url(../img/contact_bg.png);
+    min-height: 100px;
+    background-color: #F4F4F4;
+}
+    .social_share{
+        text-align: center;
+    }
+
+.social_share a {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #545454;
+    margin-top: 137px;
+    margin-right: 0x;
+    margin-bottom: 20px;
+}
+
+.social_share a i {
+    font-size: 16px;
+    color: #545454;
+    margin-top: 10px;
+}
+    .donate {
+    background-image: url(../img/content_bg.jpg);
+    background-repeat: no-repeat;
+    min-height: 228px;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+    z-index: 10;
+}
+    .donate_ques h1 {
+    font-size: 25px;
+    margin-top: 50px;
+}
+    .donate_button .btn-donate {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        font-size: 13px;
+        padding: 10px 30px;
+        margin-top: 20px;
+        margin-left: -31px;
+}
+        .portfolio {
+        background-color: #FFFFFF;
+        min-height: 500px;
+        position: relative;
+        z-index: 10;
+    }
+    .devices {
+        position: absolute;
+        left: 0;
+        top: 345px;
+        bottom: 0;
+        z-index: 5;
+    }
+    .portfolio_text {
+        position: absolute;
+        left: 0px;
+        right: 0;
+        width: 90%;
+        top: 30px;
+        margin: 0 5%;
+        margin-bottom: 15px;
+    }
+    .portfolio_text h1 {
+        font-size: 24px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #545454;
+    }
+    .portfolio_text p {
+        font-size: 12px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #545454;
+    }
+    .btn.drib_btn {
+        background-color: transparent;
+        border: 2px solid #EA4C89;
+        color: #EA4C89;
+        padding: 10px 15px;
+        margin-top: 10px;
+    }
+}
+
+/* Small devices */
+@media (min-width: 768px) and (max-width: 991px) { 
+    .contact {
+    background-image: url(../img/contact_bg.png);
+    min-height: 415px;
+    background-color: #F4F4F4;
+}
+    .portfolio {
+     background-image: url(../img/portfolio_bg.png);
+    position: relative;
+    min-height: 540px;
+    z-index: 10;
+}
+    .devices {
+        position: absolute;
+        left: 0;
+        top: 310px;
+        bottom: 0;
+        z-index: 5;
+    }
+    .portfolio_text {
+        position: absolute;
+        left: -47px;
+        right: 0;
+        width: 100%;
+        top: 110px;
+    }
+    .portfolio_text h1 {
+        font-size: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #545454;
+    }
+    .portfolio_text p {
+        font-size: 16px;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #545454;
+    }
+    /*
+
+}
+
+/* Medium devices */
+@media (min-width: 992px) and (max-width: 1199px) { 
+  /**** Portfolio Area *****/
+
+.portfolio {
+     background-image: url(../img/portfolio_bg.png);
+    position: relative;
+    min-height: 540px;
+    z-index: 10;
+}
+
+.devices {
+    position: absolute;
+    top: 163px;
+    z-index: 5;
+    left: 0;
+    bottom: 0;
+}
+
+.portfolio_text {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 50px;
+    left: -30px;
+}
+
+.portfolio_text p {
+    color: #545454;
+    font-size: 16px;
+    font-family: 'lato', sans-serif;
+    margin-bottom: 30px;
+}
+
+.portfolio_text h1 {
+    color: #545454;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-family: 'lato', sans-serif;
+}
+
+.btn.drib_btn {
+    color: #EA4C89;
+    background: transparent; 
+    border: 2px solid #EA4C89; 
+    padding: 14px 23px;
+    font-size: 14px;
+}
+
+.fa.fa-dribbble{
+    margin-left: 15px;  
+
+}
+.social_share a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #545454;
+    margin-top: 144px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    }
+.portfolio_text {
+    position: absolute;
+    right: 0;
+    width: 100%;
+    top: 50px;
+    left: -166px;
+}
+}
+    
+/* Large devices */
+@media (min-width: 1200px) { 
+
+}
